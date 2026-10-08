@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | 2026S00024-MyPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Medhansh Eluri|Portfolio-Contact </h2>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="project.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+    </header>
+    <br>
+    <main>
+        <section>
+            <form>
+                <h2 class="section-title">Your Details:</h2>
+                <fieldset>
+                    
+                    <div class="card3">
+
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Medhansh.Eluri" required
+                            maxlength="50"><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="medhansh.eluri@thesiu.in" required><br>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password"
+                            required><br>
+                    </div>
+                </fieldset> <br>
+                <div class="card3"> <label for="phone">Phone:</label>
+
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required
+                        maxlength="10">
+                </div>
+                <br>
+                <div class="card3"><label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div><br>
+                <div class="card3"> <label for="number">Number:</label>
+                    <input type="number" id="number" name="number" placeholder="Enter a number" required>
+                </div><br>
+
+                <h2 class="section-title">Reason for Contact:</h2>
+                <div class="card2">
+                    <input type="radio" id="enquiry" name="reason" value="enquiry">
+                    <label for="enquiry">Enquiry</label>
+                </div> <br>
+                <div class="card2"><input type="radio" id="job" name="reason" value="job">
+                    <label for="job">Job Opportunity</label>
+                </div> <br>
+                <div class="card2"> <input type="radio" id="feedback" name="reason" value="feedback">
+                    <label for="feedback">Feedback</label>
+                </div> <br>
+                <div class="card2"><input type="radio" id="other" name="reason" value="other">
+                    <label for="other">Other</label>
+                </div> <br>
+
+                </select><br>
+                 <h2 class="section-title">Your Message:</h2>
+                <fieldset>
+                    <div class="card3">
+                        
+                        <textarea id="message" name="message" rows="10" cols="0"
+                            placeholder="Enter your message here..." required minlength="10" maxlength="100"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </fieldset>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p> &copy; 2026 My website.All rights reserved.</p>
+        <div class="footer-links">
+
+            <a href="mailto:medhansh.eluri@thesiu.in">Email me</a> <br>
+            </p>
+        </div>
+
+    </footer>
+</body>
