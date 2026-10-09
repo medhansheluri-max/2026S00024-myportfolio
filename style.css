@@ -259,3 +259,21 @@ thead th {
     border-bottom: 2px solid #e2e8f0;
     border-radius: 8px 8px;
 }
+
+#box {
+    background-color: white;
+    border-radius: 5px;
+    color: #044abb;
+    box-shadow: 0 2px 8px rgba(16, 17, 0, 0.932);
+}
+
+.clicked-logo {
+    
+    border-radius: 10px;
+    padding: 4px;
+    flex: 1;
+    min-width: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #1E293B;
+    box-shadow: 0 2px 4px rgb(0, 2, 10);
+}

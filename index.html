@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer> </script>
 </head>
 
 <body>
+   
     <nav class="navbar">
-        <h2 class="logo">Medhansh Eluri|Portfolio </h2>
+        <h1  class="clicked-logo">Medhansh Eluri|Portfolio</h1>
         <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
@@ -19,6 +21,9 @@
         </div>
 
     </nav>
+    <div id="box"> </div>
+
+
     <section class="hero">
         <div class="hero-content">
             <p> Hi all,<br>
@@ -58,13 +63,15 @@
             </div>
         </div>
     </section>
-    
+
+
+
     <footer class="footer">
-        <p> &copy; 2026 My website.All rights reserved.</p>
+        <p> &copy; <span id="year">2023</span> My website.All rights reserved.</p>
         <div class="footer-links">
-            
+
             <a href="mailto:medhansh.eluri@thesiu.in">Email me</a> <br>
-        </p>
+            </p>
         </div>
 
     </footer>
