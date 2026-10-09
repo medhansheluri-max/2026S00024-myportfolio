@@ -26,13 +26,15 @@ if (yearSpan) {
 
 //Set up a watchman.
 
-document.querySelector("h1").addEventListener(`click`, function(){
- console.log("Somebody poked on your heading")
+document.querySelector('a').addEventListener(`click`, function () {
+    console.log("Somebody poked on your heading")
 });
 
-const heading= document.querySelector(`h1`);
- 
-heading.addEventListener(`click`, function(event){
+const heading = document.querySelector("");
+
+heading.addEventListener(`click`, function (event) {
     console.log(`You clicked:`, event.target.textContent);
     heading.classList.toggle(`clicked-logo`);
 });
+
+

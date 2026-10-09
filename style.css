@@ -30,10 +30,11 @@ p {
 
 .navbar {
     background-color: #F9FAFB;
-    padding: 16px 32px;
+    padding: 24px 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #056aee;
 }
 
 .logo {
@@ -44,6 +45,7 @@ p {
 .nav-links {
     display: flex;
     gap: 24px;
+
 }
 
 .nav-links a {
@@ -58,6 +60,8 @@ p {
     text-decoration: none;
     font-weight: 600;
     box-shadow: 0 2px 8px rgba(2, 47, 245, 0.95);
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-links a:hover {
@@ -268,7 +272,6 @@ thead th {
 }
 
 .clicked-logo {
-    
     border-radius: 10px;
     padding: 4px;
     flex: 1;
@@ -276,4 +279,28 @@ thead th {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #1E293B;
     box-shadow: 0 2px 4px rgb(0, 2, 10);
+    font-weight: bold;
+}
+
+.navbar_nav-toggle {
+    background-color: white;
+    border-radius: 5px;
+    color: #044abb;
+    box-shadow: 0 2px 8px rgba(16, 17, 0, 0.932);
+    cursor: pointer;
+    display: inline-block;
+    border: 20px;
+    gap: 10px;
+
+}
+
+.nav-menu {
+    background-color: white;
+    border-radius: 5px;
+    color: #044abb;
+    box-shadow: 0 2px 8px rgba(16, 17, 0, 0.932);
+    cursor: pointer;
+    display: inline-block;
+    border: 20px;
+    gap: 10px;
 }
